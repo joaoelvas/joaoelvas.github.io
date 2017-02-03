@@ -1,0 +1,276 @@
+/* ------------------------------------------------------------------------------
+  Global
+-------------------------------------------------------------------------------*/
+body {
+padding: 0;
+margin:0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+ }
+
+/* ------------------------------------------------------------------------------
+  Jumbotron
+-------------------------------------------------------------------------------*/
+.slideblock .container-fluid{
+  padding: 0;
+}
+.slideblock {
+  position: relative;
+  text-align: center;
+}
+.slide1 {
+  min-height: 500px;
+  background-image: url(../img/pexels-photo-12255.jpeg);
+  background-size: cover;
+  background-position: 50% 50%;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.slide2 {
+  min-height: 500px;
+  background-image: url(../img/sea-houses-cloudy-buildings-large.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.slide3 {
+  min-height: 500px;
+  background-image: url(../img/pexels-photo-large.jpg);
+  background-size: cover;
+  top: 0;
+  left: 0;
+  display: none;
+}
+.activeslide {
+  display: block;
+}
+.slide-nav {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  right: 47%;
+}
+.slide-nav i {
+  margin-right: 5px;
+  padding-bottom: 10px;
+}
+.slideblock h1 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 60px;
+  text-align: left;
+}
+.slideblock p {
+  color: white;
+  text-align: left;
+}
+.slideblock .button{
+  text-transform: uppercase;
+  color: white;
+  padding:15px 25px;
+  border: 1px solid white;
+  position: relative;
+  top: 30px;
+}
+.slideblock .button:hover{
+  text-decoration: none;
+  font-weight: 500;
+  border: 2px solid white;
+}
+
+.button i {
+  margin-right: 10px;
+}
+.logo {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+nav ul {
+  float: right;
+  list-style: none;
+  text-transform: uppercase;
+  margin-top: 35px;
+}
+nav ul li{
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 20px;
+}
+.contact {
+  cursor: pointer;
+}
+
+
+
+
+#opaco {
+  min-width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+}
+
+#popup {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+#popup form {
+  position: relative;
+  top: 50px;
+  margin: 0 auto;
+  width: 50%;
+}
+#popup h2 {
+  padding-top: 30px;
+  color: white;
+}
+#popup h2 i {
+  margin-left: 10px;
+}
+#popup input {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+#popup textarea {
+  padding: 10px;
+  height: 120px;
+  margin-bottom: 40px;
+  }
+#popup #submit {
+  font-size: 16px;
+  text-transform: uppercase;
+  background: #3bc492;
+  color: #fff;
+  padding: 5px 40px;
+  border: none; 
+}
+#popup #submit:hover {
+  background: #fff;
+  color: #3bc492;
+  position: relative;
+  top: 2px;
+}
+.hidden {
+  display: none;
+}
+#popup .fa-times {
+  color: white;
+  font-size: 30px;
+  font-weight: 200;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  cursor: pointer;
+}
+#popup .fa-times:hover {
+  color: #3bc492;
+}
+
+
+.calculate {
+  background-color: #F8F8FF;
+}
+h1 {
+  text-transform: uppercase;
+  text-align: center;
+}
+.calculate form {
+  font-size: 16px;
+  width: 70%;
+  margin: 0 auto;
+}
+.calculate form div {
+  text-align: center;
+}
+.calculate form label {
+  font-weight: 500;
+  font-style: italic;
+}
+.calculate form p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.calculate form span{
+  color: #4682B4;  
+}
+.calculate form label{
+  margin-left: 50px; 
+}
+#total {
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #4682B4;
+  display: inline-block;
+  color: white;
+}
+.areatext {
+  font-size: 16px!important;
+  font-style: italic;
+  display: inline-block;
+  padding-right: 50px;
+}
+p span {
+  color: #4682B4;
+}
+
+.projects {
+  text-align: center;
+}
+
+.aboutus img {
+  width: 100%;
+}
+
+.footer {
+  padding: 20px 0;
+  background-color: grey;
+}
+.aboutus {
+  background-color: #F8F8FF;
+  border-bottom: 1px solid #BDECB6;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+.calculate {
+  border-top: 1px solid #BDECB6; 
+  padding-bottom: 100px;
+  padding-top: 50px;
+}
+.projects {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.aboutus .row:first-child {
+  margin-bottom: 50px;
+}
+
+.calculate h1, .projects h1 {
+  margin-bottom: 70px;
+}
+header a {
+  color: black;
+}
+header a:hover {
+  text-decoration: none;
+}
+.slide img {
+  height: 180px;
+}
+.footer h4 {
+  text-transform: uppercase;
+}
+.footer p {
+  margin: 0;
+}
